@@ -6,7 +6,16 @@
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
 
+
+
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+
+.nav-link:hover {
+    text-decoration: underline;
+  }
+.jumbotron-fluid {
+    background-image: url("../img/pirate-ship.jpg") no-repeat right top;
+}
 // Import partials here
