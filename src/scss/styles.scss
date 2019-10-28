@@ -21,8 +21,7 @@ $font-stack: Della Respira, sans-serif;
   background: url(../img/pirate-ship.jpg);
   background-size: cover;
   max-width: 100%;
-  height: auto;
-  
+  height: auto; 
 }
 
 .pirate-face {
@@ -46,10 +45,13 @@ footer {
   color: white;
   text-align: center;
 }
-
+.subhead {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
 // Import partials here
 
-.headline-one{
+.headline-one {
   font: 100% $font-stack;
 }
 .headline-two{
