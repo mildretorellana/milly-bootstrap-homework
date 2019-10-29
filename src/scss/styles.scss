@@ -10,28 +10,8 @@ $font-stack: Della Respira, sans-serif;
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-.bar {
-  background-color: red;
-}
-.nav-link:hover {
-    text-decoration: underline;
-  }
-.jumbotron {
-  background: url(../img/pirate-ship.jpg);
-  background-size: cover;
-  max-width: 100%;
-  height: auto; 
-}
-
-.pirate-face {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
-  height: auto;
-}
-
-.body {
+body {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
 }
 
@@ -44,20 +24,39 @@ footer {
   color: white;
   text-align: center;
 }
-.subhead {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+
+.nav-link:hover {
+    text-decoration: underline;
+  }
+
+.jumbotron {
+  background: url(../img/pirate-ship.jpg);
+  background-size: cover;
+  background-position: 100% 30%;
+  max-width: 100%;
+  height: 450px; 
 }
-// Import partials here
+
+.pirate-face {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 5px;
+}
 
 .headline-one {
   font: 100% $font-stack;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .headline-two{
   font: 100% $font-stack;
-  font-size: 35px;
   text-decoration: bold;
 }
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+
+
